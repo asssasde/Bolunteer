@@ -1,0 +1,1001 @@
+body {
+    background: #f8f8f8;
+    font-family: 'Poppins', sans-serif;
+}
+
+.login-drop-width {
+    max-width: 390px;
+}
+
+.login-panel {
+    margin-top: 10px;
+}
+
+.login-button {
+    margin-bottom: 10px;
+    /* background: #2AA057; */
+    background: -webkit-linear-gradient(right, #2d241a, #7ee753);
+    color: white;
+}
+
+.login-panel-margin {
+    margin-top: 20px;
+}
+
+.black-text {
+    color: black;
+}
+
+
+/*NAV*/
+
+.landing-nav {
+    margin-bottom: 0;
+    background: rgba(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
+    -webkit-transition: all 0.6s ease-out;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -ms-transition: all 0.6s ease-out;
+    transition: all 0.6s ease-out;
+}
+
+.landing-nav.scrolled {
+    /*background: rgba(255, 255, 255, 0.9);
+border-color: rgba(255, 255, 255, 0.9);*/
+    background: white;
+    /*border-color: white;*/
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
+}
+
+.main-nav {
+    background: rgb(49, 172, 86);
+    color: white;
+    height: 60px;
+}
+
+.white-icon {
+    color: white;
+}
+
+.scroll-link {
+    color: white;
+    margin-top: 7px;
+}
+
+
+/*.purple-nav {
+background: white;
+height: 60px;
+}*/
+
+.scroll-link.scrolled {
+    color: rgb(24, 66, 18);
+}
+
+.navbar {
+    margin-bottom: 0px;
+    height: 60px;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-size: 25px;
+    float: none;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+.navbar-default {
+    border: none;
+}
+
+.nav>li>a:focus,
+.nav>li>a:hover {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+
+
+/*a:focus,
+a:hover {
+color: #A553E7;
+}*/
+
+.scroll-link:focus,
+.scroll-link:hover {
+    color: #d3d3d3;
+}
+
+.scroll-link.scrolled:focus,
+.scroll-link.scrolled:hover {
+    color: #484848;
+}
+
+#nav-brand,
+#nav-brand-2 {
+    color: white;
+    font-size: 25px;
+    float: none;
+    display: inline-block;
+    margin-top: 7px;
+}
+
+
+/*#nav-brand-purple {
+color: #6564DA;
+font-size: 25px;
+float: none;
+display: inline-block;
+}*/
+
+#nav-brand.scrolled {
+    background: -webkit-linear-gradient(left, rgb(61, 138, 112), rgb(16, 80, 41));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: bold;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+/*#nav-brand-2.scrolled {
+color: #6564DA;
+}*/
+
+#icon {
+    display: inline-block;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*Top Banner*/
+
+#top-banner {
+    background-image: url('../images/soupkitchen2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 700px;
+    text-align: center;
+    color: white;
+    margin-top: 0;
+}
+
+.large-h1 {
+    font-size: 40px;
+}
+
+hr {
+    width: 10%;
+}
+
+
+/*buttons*/
+
+.btn-outline-success {
+    background: rgb(24, 168, 96);
+    /*border: 2px solid #4abdac;*/
+}
+
+.btn-outline-success:hover,
+.btn-ouline-succes:focus {
+    background: rgb(115, 207, 250);
+    color: white;
+}
+
+.green-btn {
+    background: #2AA057;
+    color: white;
+}
+
+.green-btn:hover,
+.green-btn:focus,
+.login-button:hover,
+.login-button:focus {
+    background: #32BF68;
+    color: white;
+}
+
+.light-orange-btn {
+    background: #FF7B26;
+    color: white;
+    margin-right: 10px;
+}
+
+.light-orange-btn:hover,
+.light-orange-btn:focus {
+    background: #FF9C2E;
+    color: white;
+}
+
+
+/*.green-btn-outline {
+border: 2px solid #6AD34C;
+background: rgba(0, 0, 0, 0);
+color: black;
+}*/
+
+.modal-save-btn {
+    margin-top: 30px;
+    background: #14AEF5;
+    color: white;
+}
+
+.modal-update-btn {
+    background: #14AEF5;
+    color: white;
+}
+
+.modal-update-btn:hover,
+.modal-update-btn:focus {
+    background: #09D2FF;
+    color: white;
+}
+
+.modal-save-btn:hover,
+.modal-save-btn:focus {
+    background: #09D2FF;
+    color: white;
+}
+
+.orange-btn {
+    background: #fc4a1a;
+    color: white;
+    box-shadow: 2px 2px 1px #888888;
+}
+
+.orange-btn:hover,
+.orange-btn:focus {
+    background: #FF5C01;
+    color: white;
+}
+
+.cancel-event-btn {
+    margin-top: 30px;
+    text-align: right;
+}
+
+
+/*Margins*/
+
+.margin-top-220 {
+    margin-top: 220px;
+}
+
+.margin-top-200 {
+    margin-top: 200px;
+}
+
+.margin-top-130 {
+    margin-top: 130px;
+}
+
+.margin-top-90 {
+    margin-top: 90px;
+}
+
+.margin-top-80 {
+    margin-top: 80px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-25 {
+    margin-top: 25px;
+}
+
+.margin-top-20-2 {
+    margin-top: 20px;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-right-10 {
+    margin-right: 10px;
+}
+
+.margin-left-20 {
+    margin-left: 20px;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+
+.margin-bottom-25 {
+    margin-bottom: 25px;
+}
+
+.margin-bottom-30 {
+    margin-bottom: 30px;
+}
+
+.margin-bottom-50 {
+    margin-bottom: 50px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.img-circle {
+    border-radius: 25px;
+}
+
+.hours-input-margin {
+    margin-top: 15px;
+}
+
+
+/*.pad-top {
+    margin-top: 5px
+}*/
+
+.add-input-margin {
+    margin-top: 5px;
+}
+
+.add-label-margin {
+    margin-top: 5px;
+}
+
+.padding-fix {
+    padding-left: 0px;
+}
+
+.padding-right-fix {
+    padding-right: 15px;
+}
+
+.goal-tracker-panel-height {
+    height: 660px;
+}
+
+
+/*text*/
+
+.text-orange {
+    color: #fc4a1a;
+}
+
+.text-green {
+    color: #6AD34C;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.white-text {
+    color: white;
+}
+
+.caps {
+    text-transform: uppercase;
+}
+
+
+/*.text-left {
+text-align: left;
+}*/
+
+
+/*About*/
+
+#about {
+    height: 500px;
+    background-color: white;
+    text-align: left;
+}
+
+
+/*How it Works*/
+
+#how-it-works {
+    height: 550px;
+    background-color: #737373;
+    color: white;
+    text-align: center;
+}
+
+
+/*.fa-check,
+.fa-search,
+.fa-wrench {
+font-size: 40px;
+}*/
+
+
+/*Beyond Tracking*/
+
+#beyond-tracking {
+    height: 500px;
+    background-image: url('../images/painting-light-banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: black;
+    text-align: center;
+}
+
+.fa-globe,
+.fa-comments {
+    font-size: 40px;
+    margin-top: 30px;
+}
+
+.panting-img {
+    text-align: right;
+}
+
+
+/*What People Are Saying */
+
+#features {
+    height: 450px;
+    background-color: whitesmoke;
+    text-align: center;
+}
+
+blockquote {
+    border: none;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote h5 {
+    font-size: 19px;
+}
+
+blockquote h5:before {
+    content: open-quote;
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(43, 177, 43)
+}
+
+blockquote p:after {
+    content: close-quote;
+    font-weight: bold;
+    font-size: 80px;
+    color: rgb(43, 177, 43)
+}
+
+
+/*Main*/
+
+.fit-img {
+    height: auto;
+    max-width: 100%;
+}
+
+.main-background {
+    background: #eaedf2;
+}
+
+.panel-default>.panel-heading {
+    background: white;
+    color: #323a45;
+}
+
+.dash-panel-margin-top {
+    margin-top: 70px;
+    border-radius: 25px;
+    height: 40px;
+    margin-bottom: 5px;
+}
+
+#goal {
+    font-size: 16px;
+    font-weight: bold;
+    /*color: #0DD4E7;*/
+}
+
+.fa-sun-o,
+.fa-star {
+    margin-left: 15px;
+    margin-right: 7px;
+    margin-top: 2px;
+}
+
+.your-weekly-goal {
+    display: inline-block
+}
+
+.btn-edit {
+    border: none;
+    display: inline-block;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 15px;
+    height: 20px;
+    width: 27px;
+    background: white;
+}
+
+.btn-edit:hover,
+.btn-edit:focus {
+    color: #0DD4E7;
+}
+
+.btn-edit:active {
+    color: rgb(56, 199, 63);
+}
+
+.modal-title,
+.close {
+    display: inline-block;
+}
+
+.inline {
+    display: inline-block;
+}
+
+
+/*Volunteer Level Panel*/
+
+.level-panel {
+    text-align: center;
+    height: 327px;
+}
+
+.level-text {
+    margin-top: 20px;
+}
+
+.level-title {
+    margin-top: 5px;
+}
+
+.badge {
+    margin-top: 10px;
+}
+
+
+/*Icons*/
+
+.fa-heart-o,
+.fa-search,
+.fa-list-ul,
+.fa-calendar,
+.fa-calendar-o,
+.fa-user,
+.fa-sliders {
+    margin-right: 4px;
+}
+
+
+/*Circular Progress Bar*/
+
+.CircularProgressbar {
+    /*
+* This fixes an issue where the CircularProgressbar svg has
+* 0 width inside a "display: flex" container, and thus not visible.
+*
+* If you're not using "display: flex", you can remove this style.
+*/
+    width: 100%;
+}
+
+.CircularProgressbar .CircularProgressbar-path {
+    stroke: #3e98c7;
+    stroke-linecap: round;
+    transition: stroke-dashoffset 0.5s ease 0s;
+}
+
+.CircularProgressbar .CircularProgressbar-trail {
+    stroke: #d6d6d6;
+}
+
+.CircularProgressbar .CircularProgressbar-text {
+    fill: #3e98c7;
+    font-size: 20px;
+    dominant-baseline: middle;
+    text-anchor: middle;
+}
+
+.tracker-text {
+    margin-bottom: 5px;
+}
+
+.CircularProgressbar.incomplete .CircularProgressbar-path {
+    stroke: #f66;
+}
+
+.CircularProgressbar.complete .CircularProgressbar-path {
+    stroke: #6AD34C;
+}
+
+
+/*.panel-title-small {
+font-size: 14px;
+display: inline-block;
+}
+.btn-goal-update {
+display: inline-block;
+}*/
+
+
+/*FOOTER*/
+
+.footer-top {
+    background: #585858;
+    color: white;
+    height: 100px;
+    text-align: left;
+}
+
+.footer-bottom {
+    background: #484848;
+    height: 50px;
+    color: white;
+}
+
+.footer-txt {
+    margin-top: 12px;
+    color: #b0b0b0;
+}
+
+.footer-top-text {
+    margin-top: 30px;
+}
+
+.footer-link {
+    color: white;
+}
+
+.footer-link:active,
+.footer-link:hover {
+    color: #6AD34C;
+    text-decoration: none;
+}
+
+input {
+    border-radius: 6px;
+}
+
+.top-link {
+    margin-top: 30px;
+}
+
+.bottom-link {
+    margin-top: 10px;
+}
+
+
+/*footer fix*/
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 150px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 150px;
+}
+
+.nav .open>a,
+.nav .open>a:focus,
+.nav .open>a:hover {
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.dropdown-menu {
+    margin-top: 17px;
+}
+
+.dropdown-toggle {
+    padding-top: 17px !important;
+    padding-bottom: 18px !important;
+    margin-left: 10px;
+}
+
+.dropdown-user {
+    margin-top: 3px;
+}
+
+.connect-img {
+    height: 20px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.form-control-goal {
+    margin-bottom: 0px;
+}
+
+.form-password {
+    margin-bottom: 5px !important;
+}
+
+
+/*Register*/
+
+#register-page {
+    background-image: url('../images/volunteers-team.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.register-form-padding-top {
+    padding-top: 0px;
+}
+
+.semi-opaque {
+    opacity: 0.96;
+    margin-top: 30px;
+    margin-bottom: 100px;
+}
+
+
+/*Search*/
+
+.input-group-btn>.btn {
+    margin-top: 25px;
+}
+
+.gray-txt {
+    color: gray;
+}
+
+.gray-txt:hover {
+    color: gray;
+}
+
+.gray-txt:active {
+    color: gray;
+}
+
+.gray-txt:visited {
+    color: gray;
+}
+
+.gray-txt:link {
+    color: gray;
+}
+
+.nav-pills>li.active>a,
+.nav-pills>li.active>a:focus,
+.nav-pills>li.active>a:hover {
+    background-color: rgb(34, 172, 69);
+}
+
+.nav-pills>li>a {
+    color: rgb(45, 179, 74);
+}
+
+.scrollbox {
+    height: 480px;
+    overflow: auto;
+}
+
+.scrollbox-goal {
+    max-height: 195px;
+    overflow: auto;
+}
+
+.pointer-link:hover {
+    cursor: pointer;
+}
+
+.card {
+    padding: 20px;
+}
+
+.purple-txt {
+    color: rgb(61, 194, 56);
+}
+
+.purple-txt:hover {
+    color: rgb(61, 194, 56);
+}
+
+.purple-txt:active {
+    color: rgb(61, 194, 56);
+}
+
+.purple-txt:visited {
+    color: rgb(61, 194, 56);
+}
+
+.purple-txt:link {
+    color: rgb(61, 194, 56);
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.margin-left-10 {
+    margin-left: 10px;
+}
+
+.category-fa {
+    margin: 5px;
+    font-size: 20px;
+}
+
+#sortSelect {
+    width: 200px;
+}
+
+
+/*Fix for blue outline and yellow highlight on input boxes and buttons*/
+
+textarea:hover,
+input:hover,
+textarea:active,
+input:active,
+textarea:focus,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    outline: 0px !important;
+    -webkit-appearance: none;
+}
+
+textarea {
+    resize: none;
+}
+
+
+/*Profile Page*/
+
+.center-align {
+    text-align: center;
+}
+
+
+/*.user-img {
+border: 10px solid white;
+}*/
+
+.profile-top {
+    background-image: url('../images/banner-hands.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+
+.profile-name-text {
+    text-align: right;
+    margin-right: 10px;
+}
+
+.user-info {
+    height: 120px;
+}
+
+.user-panel-body {
+    padding: 10px;
+}
+
+.about-panel {
+    text-align: center;
+    overflow: auto;
+    height: 300px;
+    line-height: 270px;
+}
+
+.vertical-mid {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+
+.scrollbox-events {
+    overflow: auto;
+    height: 140px;
+}
+
+.panel-height-profile1 {
+    /*height: 440px;*/
+    height: 360px;
+}
+
+.panel-height-profile2 {
+    height: 200px;
+}
+
+.event-link {
+    color: #f96868;
+}
+
+.event-link:hover,
+.event-link:focus,
+.event-link:active {
+    color: #6564DA;
+    text-decoration: none;
+}
+
+
+/*GoalList*/
+
+.interest-font {
+    font-size: 13px;
+}
+
+.goal-item {
+    overflow: hidden;
+    width: 100%;
+    height: 34px;
+    position: relative;
+    color: #4c4c5d;
+}
+
+.goal-item span {
+    line-height: 34px;
+}
+
+.grow {
+    transition: all .2s ease-in-out;
+}
+
+.grow:hover {
+    transform: translateY(-3px);
+}
+
+.goal-item .btn {
+    right: 0;
+    position: absolute;
+    border: 0px solid transparent;
+}
+
+.goal-item.btn.btn-default:hover {
+    color: #f96868;
+    /* background-color: #e6e6e6; */
+    border-color: #adadad;
+}
+
+.list-group-item {
+    border: none;
+    padding-bottom: 28px;
+    cursor: move;
+}
+
+.list-group-item:hover {
+    color: #03c7f4;
+}
+
+ul.sortable {
+    list-style: none;
+    padding: 0;
+}
+
+.tab-content {
+    margin-top: 10px;
+}
+
+
+/*Info modal*/
+
+.info-img {
+    border: lightgray solid 1px;
+    border-radius: 2px;
+}

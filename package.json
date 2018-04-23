@@ -1,0 +1,62 @@
+{
+  "name": "Bolunteer",
+  "version": "1.0.0",
+  "description": "We all want to do good for the community, but we never seem to find the time. Bolunteer will help you plan when and where you can volunteer in your community. Simply start creating an account. Search for opportunities, save volunteering events to your calendar, keep track of your goals and hours, and earn badges along the way. Go ahead, start Bolunteering.",
+  "main": "public/index.html",
+  "dependencies": {
+    "axios": "^0.15.3",
+    "body-parser": "^1.17.0",
+    "connect-multiparty": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "date-input-polyfill": "^2.13.0",
+    "express": "^4.14.1",
+    "express-session": "^1.15.1",
+    "moment": "^2.18.1",
+    "mongoose": "^4.8.5",
+    "passport": "^0.3.2",
+    "passport-local-mongoose": "^4.0.0",
+    "react": "^15.4.2",
+    "react-circular-progressbar": "^0.1.3",
+    "react-dom": "^15.4.2",
+    "react-router": "^2.4.1",
+    "react-typed": "^1.0.8",
+    "serve-favicon": "^2.4.1",
+    "wsse": "^2.4.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -w",
+    "dev": "webpack -w & nodemon server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reyhenry38/bolunteer.git"
+  },
+  "keywords": [
+    "react",
+    "babel",
+    "mern",
+    "mongo",
+    "node",
+    "express",
+    "mongoose",
+    "passport",
+    "volunteermatch",
+    "moment",
+    "fullcalendar.js",
+    "axios"
+  ],
+  "author":"Ejike",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reyhenry38/bolunteer/issues"
+  },
+  "homepage": "https://github.com/reyhenry38/bolunteer#readme"
+}
